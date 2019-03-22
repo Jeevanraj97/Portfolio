@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+ <link rel="stylesheet" href="./swiper.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio</title>
+      
+  </head>
+  <body>
+    
+  
+<!--------body------>
+      
+      <!--------Left------>
+    <div class="home">
+        <div class="leftSideMenu">
+        <div class="main">
+            <h1 class="text">Jeevan Raj</h1>
+            <h2 class="text">UI Designer</h2>
+        </div>
+                
+        </div>
+            
+        <!--------Right------>
+        <div class="rightSideContent">
+          
+            <div class="swiper-container">
+                 <div class="btn-group-vertical">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <button type="button" class="btn btn-primary">Sony</button>
+</div>
+                <div class="swiper-wrapper">
+  
+                  <div class="swiper-slide"><img src="images/FIMA.jpg"></div>
+                  <div class="swiper-slide"><img src="images//final.jpg"></div>
+                  <div class="swiper-slide"><img src="images/Home.png"></div>
+                  <div class="swiper-slide"><img src="images/HULK.jpg"></div>
+                  <div class="swiper-slide"><img src="images/IMG-20180829-WA0031.jpg"></div>
+                  <div class="swiper-slide"><img src="images/Ironman.jpg"></div>
+                  <div class="swiper-slide"><img src="images/Logo%201-01.png"></div>
+                  <div class="swiper-slide"><img src="images/logo-01.png"></div>
+                  <div class="swiper-slide"><img src="images/Logo%201-01.png"></div>
+                  <div class="swiper-slide"><img src="images/Web%201920%20%E2%80%93%201.png"></div>
+                  </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+         
+
+    <script src="./jquery-1.11.0.min.js"></script>
+    <script src="./swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          direction: 'vertical',
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          mousewheel: true,
+        });
+      </script>
+
+
+</body>
+
+</html>
