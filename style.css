@@ -1,0 +1,82 @@
+@font-face {
+  font-family: century;
+  src: url("fonts/centurygothic.ttf");
+  }
+
+           body {
+            margin: 0 auto;
+            font-family: century;
+            font-weight: 800;
+        }
+
+        .home {
+            display: flex;
+            height: 100vh;
+           
+        }
+
+        .leftSideMenu {
+            flex: 0 0 auto;
+            width: 500px;
+            overflow-y: auto;
+            min-height: 100vh;
+            border-right: 1px solid #f5f5ef;
+            background-image: url(images/back.png);
+            background-size: cover;
+            
+}
+
+        .rightSideContent {
+            flex: 1 1 auto;
+            min-height: 100vh;
+            overflow-y: auto;
+        }
+
+/*====left========*/
+
+
+.main{
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+ /*====css========*/
+.swiper-container{
+    height: 100vh;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.btn-group{
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+    
+}
+
+.swiper-wrapper{
+     padding-bottom: 15px;
+    
+}
+
+.swiper-slide img{
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: 750px;
+    padding: 25px;
+   
+    
+}
+.swiper-pagination{
+    display: none;
+}
+/*==============*/
+
