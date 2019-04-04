@@ -20,7 +20,6 @@
             width: 500px;
             overflow-y: auto;
             min-height: 100vh;
-            border-right: 1px solid #f5f5ef;
             background-image: url(images/back.png);
             background-size: cover;
             
@@ -44,23 +43,30 @@
 
 
  /*====css========*/
-.swiper-container{
-    height: 100vh;
-    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+.s1{
+    height: 95vh;
+    background-image: linear-gradient(120deg, #f093fb 0%, #0336ff 100%);
+}
+.s2{
+    height: 95vh;
+    background-color: #ffff00;
+}
+.s3{
+    height: 95vh;
+    background-image: linear-gradient(120deg, #f093fb 0%, #0336ff 100%);
+}
+.s4{
+    height: 95vh;
+    background-image: linear-gradient(120deg, #f093fb 0%, #0336ff 100%);
+}
+.s5{
+    height: 95vh;
+    background-image: linear-gradient(120deg, #f093fb 0%, #0336ff 100%);
 }
 
-.btn-group{
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  width: 50%; /* Set a width if needed */
-  display: block; /* Make the buttons appear below each other */
-}
-    
-}
 
 .swiper-wrapper{
-     padding-bottom: 15px;
+   height: 100vh;  
     
 }
 
@@ -69,9 +75,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100vh;
-    width: 750px;
-    padding: 25px;
+    height: 80vh;
+    width: 110vh;
+   margin-left: auto;
+    margin-right:auto;
+    margin-top: 40px;
+    
    
     
 }
@@ -80,3 +89,17 @@
 }
 /*==============*/
 
+.bottomtab
+{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    z-index:22;
+    background-color: #fff;
+}
+
+.nav-link{
+    font-family: century;
+    font-size: 20px;
+    border-color: none !important;
+}
