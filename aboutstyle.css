@@ -1,0 +1,74 @@
+@font-face {
+  font-family: century;
+  src: url("fonts/centurygothic.ttf");
+  }
+
+.body {
+    display: flex;
+    margin: 0 auto;
+    font-family: century;
+    font-weight: 800;
+    }
+
+.top{
+    background-image: url(1.jpg);
+    min-height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.head{
+    min-height: 100vh;
+}
+
+.head>h1{
+    font-size: 100px;
+    font-family: century;
+    font-weight: bolder;
+    animation: Slide_Up 1.8s;
+    padding-top: 100px;
+    color: white;
+    
+}
+.head>p{
+    font-size: 35px;
+    font-family: century;
+    color: white;
+     animation: Slide_Up 2.2s;
+}
+
+.whatido{
+    background-image: url(2.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.flex-item{
+    animation: Slide 1.8s;
+    background-image: url(code.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+@keyframes Slide_UP{
+    0%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+ @keyframes Slide {
+    100% { left: 0; }
+}
